@@ -182,7 +182,7 @@ section{
 }
 
 .section-features{
-    background-color: #ffa9a0;
+    background-color: #fac4be;
 }
 .feature-text{
     width: 70%;
@@ -193,7 +193,7 @@ section{
 }
 
 .box{
-    padding: 1%;
+    padding: 2%;
 }
 
 .box p{
@@ -248,7 +248,7 @@ section{
 }
 
 .phone-image{
-    width: 40%;
+    width: 70%;
 }
 
 .btn-img img{
@@ -290,7 +290,7 @@ section{
 }
 
 .work-steps:last-of-type{
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .clearfix{
@@ -306,13 +306,17 @@ section{
 }
 
 .section-works{
-    background-color: #f0f0f0;
+    background-color: rgba(255, 250, 202, 0.7)
 }
 
 .box img{
-    width: 100%;
-    height: 225px;
+    width: 70%;
+    height: 300px;
     margin-bottom: 15px;
+}
+
+.section-cities{
+    background-color: #fac4be;
 }
 
 .city-features{
@@ -419,6 +423,7 @@ cite img{
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 select,
 textarea{
     width: 100%;
