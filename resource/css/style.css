@@ -204,6 +204,7 @@ section{
 .ngo-text{
     font-family: "Passion+One";
 }
+
 .icon-big{
     display: inline-block;
     color: #b77100;
@@ -310,10 +311,11 @@ section{
 }
 
 .box img{
-    width: 70%;
+    width: 100%;
     height: 300px;
     margin-bottom: 15px;
 }
+
 
 .section-cities{
     background-color: #fac4be;
@@ -330,7 +332,9 @@ section{
     font-size: 120%;
     vertical-align: middle;
 }
-
+.city-img img{
+    width: 70%;
+}
 .section-testimonials{
     background-image:linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)),url(img/back-customers.jpg);
     background-size: cover;
